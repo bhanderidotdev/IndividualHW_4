@@ -2,40 +2,34 @@
 
 Overview
 
-A JavaFX-based educational Q&A platform with role-based access for students, staff, and reviewers. It supports question submission, answering, reviewing, staff moderation, and messaging.
+A JavaFX-based educational Q&A application that supports role-based access for students, staff, and reviewers. Staff users have access to additional tools for moderation, communication, and scheduling.
+
+Staff Role User Stories
+	1.	View Questions and Answers
+Staff can view all submitted questions and answers to monitor participation.
+	2.	Access Reviews and Feedback
+Staff can access reviews and feedback to assess content quality.
+	3.	Staff Messaging and Chat
+Staff can message each other privately for internal discussion.
+	4.	Search for Users or Content
+Staff can search through questions, answers, or usernames.
+	5.	Schedule Meetings or Office Hours
+Staff can organize meetings by entering title, date, time, and agenda.
+
+Testing
+
+JUnit tests validate staff login, flagging users, scheduling meetings, and more.
+
+Author
+
+Divy Mukeshbhai Bhanderi
+CSE360 - Spring 2025
+
+Link to screencast
 
 
-**Staff Role User Stories**
 
-View Questions and Answers
 
-Staff can monitor all user-submitted content.
-
-Access Reviews and Feedback
-
-Staff can see reviews to evaluate answer quality.
-
-Staff Messaging and Chat
-
-Staff can privately message other staff.
-
-Search for Users or Content
-
-Staff can search for questions, answers, or usernames.
-
-Schedule Meetings or Office Hours
-
-Staff can create events with title, date, time, and agenda.
-
-**Testing**
-
-JUnit tests check staff login, flagging users, scheduling meetings, and superliking answers.
-
-**Author**
-
-Divy Mukeshbhai Bhanderi - CSE360 Spring 2025
-
-**Link to screencast**
 
 
 
