@@ -1,8 +1,17 @@
-# IndividualHW_4
-
 Overview
 
 A JavaFX-based educational Q&A application that supports role-based access for students, staff, and reviewers. Staff users have access to additional tools for moderation, communication, and scheduling.
+
+How to Run
+
+	1.	Open the project in an IDE like Eclipse
+ 
+	2.	Set the main class to application.StartCSE360
+ 
+	3.	Run with Java 11 or later
+ 
+	4.	Staff role features are primarily used to test the unit functionalities, the testing file is nameed StaffFuntionalityTest.java
+ 
 
 Staff Role User Stories
 
@@ -24,14 +33,20 @@ Staff can organize meetings by entering title, date, time, and agenda.
 
 Testing
 
-JUnit tests validate staff login, flagging users, scheduling meetings, and more.
+The file DatabaseHelperStaffTest.java includes 5 unit tests focusing on staff features:
+
+	•	User registration
+	•	User login
+	•	Flagging users
+	•	Scheduling meetings
+	•	Generating invitation codes
 
 Author
 
 Divy Mukeshbhai Bhanderi
 CSE360 - Spring 2025
 
-Link to screencast
+Link to screencast: 
 
 
 
